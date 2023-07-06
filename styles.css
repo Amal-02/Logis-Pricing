@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #2b4570;
+  --black: #333;
+  --color-primary: #0d42ff;
+  --white: #fff;
+  --btn-color: #4BB3E2;
+  --color-default: #0a0d13;
+  --color-secondary: #0e1d34;
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+.align {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 3.1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.3rem;
+  margin: 0 auto;
+}
+
+
+/* Pricing */
+.pricingcontainer {
+    margin-top: 7%;
+    padding: 0 2rem;
+  }
+  
+  .pricingcontainer .carousel {
+    height: 70vh;
+  }
+  
+  .pricingcontainer .heading {
+    text-align: center;
+  }
+  
+  .pricingcontainer .heading h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #001973;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .pricingcontainer .heading h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .pricingcontainer .heading span {
+    position: absolute;
+    margin-top: 20px;
+    color: #0e1d340f;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  
+  .pricingcontainer .pricing .card-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  
+  .pricing .card-content .card-2,
+  .card-3,
+  .card-4 {
+    position: relative;
+    width: 24rem;
+    height: 30rem;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 9px 9px 19px #e1dede, -9px -9px 19px #ffffff;
+    border-radius: 2px;
+  }
+  
+  .pricing .card-content .card-3 {
+    border-top: 4px solid #1b4dff;
+    border-radius: 7px;
+  }
+  
+  .pricing .card-content h1 {
+    color: #0e1d34;
+    font-weight: 700;
+    font-size: large;
+  }
+  
+  .pricing .card-content a {
+    color: #1b4dff;
+    display: flex;
+    font-size: 30px;
+    margin-top: 5%;
+    font-weight: 200;
+  }
+  
+  .pricing .card-content a i {
+    font-weight: 200;
+    margin-top: 5%;
+    font-size: 22px;
+  }
+  
+  .pricing .card-content a h2 {
+    font-weight: 400;
+    margin-left: 1%;
+  }
+  
+  .pricing .card-content a h3 {
+    margin-top: 10px;
+    color: #899299;
+    margin-left: 2%;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10%;
+    text-transform: lowercase;
+  }
+  
+  .pricing .card-content .center {
+    margin-top: 15%;
+  }
+  
+  .pricing .card-content .center p {
+    margin-top: 7%;
+    font-size: 15px;
+    color: #565b5f;
+  }
+  
+  .pricing .card-content .center .text {
+    text-decoration: line-through;
+  }
+  
+  .pricing .card-content .center p .fa-check {
+    color: #0f9b65;
+    padding-right: 10px;
+    font-weight: 900;
+  }
+  
+  .pricing .card-content .center p .fa-xmark {
+    padding-right: 10px;
+  }
+  
+  .pricing .card-content .layer {
+    margin-top: 15%;
+  }
+  
+  .pricing .card-content .layer a {
+    width: 140px;
+    height: 50px;
+    padding: 13px 28px;
+    font-size: 16px;
+    border: 1px solid #0d42ff;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+  
+  .pricing .card-content .layer a:hover {
+    background-color: #0d42ff;
+    color: #fff;
+  }
+  
+  .pricing .card-content .card-3 .layer a {
+    background-color: #0d42ff;
+    color: #fff;
+  }
+  
+  
